@@ -1,71 +1,20 @@
+## Mediation UI
 
+All about mediation ui
 
-# 🚀 Jetfire – Frontend Starter Template
+## Tech Stack
 
-A modern, scalable starter template for all your frontend projects.
+- React
+- TypeScript
+- Vite
+- TanStack Query
+- React Router
+- TailwindCSS
+- Shadcn UI
 
-## 🛠️ Tech Stack
-
-* **React**
-* **TypeScript**
-* **Vite**
-* **TanStack Query**
-* **React Router**
-* **TailwindCSS**
-* **Shadcn UI**
-
-## 📁 Project Structure
-
+## Instructions
 ```
-app/
-├── api/              # All API calls
-├── components/       
-│   ├── shared/       # Shared components
-│   └── ui/           # Shadcn UI components
-├── hooks/            # Custom hooks
-├── layout/           # App layout components
-├── pages/            # Route-based pages
-├── routes/           # Route definitions
-├── types/            # Global types
-│   └── api/          # API-specific types
-├── utils/            # Utility functions
-├── main/             # Entry point
-└── App.tsx           # Root component
+git clone https://github.com/Presolv-360/mediation-ui.git
+npm install
+npm run dev
 ```
-
-## 🧱 Feature Structure Convention
-
-To add a feature named `auth`:
-
-```
-app/
-├── routes/auth/
-├── pages/auth/
-├── components/shared/auth/
-├── hooks/auth/
-├── types/auth/
-└── types/api/auth/
-```
-
-Each feature is modular and self-contained across relevant directories.
-
-## 🚀 Getting Started
-
-1. Clone the repository
-
-   ```bash
-   git clone <repo-url>
-   ```
-2. Install dependencies
-
-   ```bash
-   npm install
-   ```
-3. Start development server
-
-   ```bash
-   npm run dev
-   ```
-
-> **Node.js Version**: `>= 20`
-
