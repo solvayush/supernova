@@ -1,75 +1,71 @@
-## Jetfire - Starter templte for all frontend projects
 
-### Tech Stack
-- React
-- TypeScript
-- Vite
-- TanStack Query
-- React Router
-- TailwindCSS
-- Shadcn UI
 
-### Project Structure
+# 🚀 Jetfire – Frontend Starter Template
 
-### app
-├── components
-│   ├── ui
-│   └── shared
-├── hooks
-├── routes  
-├── layout
-├── utils
-├── types
-├── api
-├── pages
-├── main
-└── App.tsx
+A modern, scalable starter template for all your frontend projects.
 
-### ui
-It contains all the ui components from shadcn ui
+## 🛠️ Tech Stack
 
-### hooks
-It contains all the custom hooks 
+* **React**
+* **TypeScript**
+* **Vite**
+* **TanStack Query**
+* **React Router**
+* **TailwindCSS**
+* **Shadcn UI**
 
-### routes
-It contains all the routes 
+## 📁 Project Structure
 
-### layout
-It contains all the layouts 
+```
+app/
+├── api/              # All API calls
+├── components/       
+│   ├── shared/       # Shared components
+│   └── ui/           # Shadcn UI components
+├── hooks/            # Custom hooks
+├── layout/           # App layout components
+├── pages/            # Route-based pages
+├── routes/           # Route definitions
+├── types/            # Global types
+│   └── api/          # API-specific types
+├── utils/            # Utility functions
+├── main/             # Entry point
+└── App.tsx           # Root component
+```
 
-### utils
-It contains all the utils
+## 🧱 Feature Structure Convention
 
-### types
-It contains all the types
+To add a feature named `auth`:
 
-### api
-It contains all the api calls
+```
+app/
+├── routes/auth/
+├── pages/auth/
+├── components/shared/auth/
+├── hooks/auth/
+├── types/auth/
+└── types/api/auth/
+```
 
-### pages
-It contains all the pages
+Each feature is modular and self-contained across relevant directories.
 
-### Naming Conventions
-E.g:
-Create a feature called "auth"
-
-1. Create a folder called "auth" in app/routes
-2. Create a folder called "auth" in app/pages
-3. Create a folder called "auth" in app/components/shared
-4. Create a folder called "auth" in app/hooks
-5. Create a folder called "auth" in app/types/
-6. Create a folder called "auth" in app/types/api
-
-## How to run the project
+## 🚀 Getting Started
 
 1. Clone the repository
+
+   ```bash
+   git clone <repo-url>
+   ```
 2. Install dependencies
-3. npm run dev
 
-Node version: >= 20
+   ```bash
+   npm install
+   ```
+3. Start development server
 
+   ```bash
+   npm run dev
+   ```
 
-
-
-
+> **Node.js Version**: `>= 20`
 
