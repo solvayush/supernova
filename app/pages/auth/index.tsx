@@ -1,6 +1,7 @@
 const AuthPage = () => {
     return <div>
-      
+      I am login page
+
     </div>
 }
 
