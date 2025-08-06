@@ -1,8 +1,7 @@
-import type { FC } from "react";
-
+import type { FC, LazyExoticComponent } from "react";
 interface IApplicatioRoutes {
     path: string | string[],
-    component: FC,
+    component: FC | LazyExoticComponent<FC>,
     guard?: FC,
     children?: IApplicatioRoutes[]
 }
